@@ -1,0 +1,16 @@
+# AdaFace (CVLFace) Production Configuration
+
+model:
+  repo_id: 'minchul/cvlface_adaface_ir50_ms1mv2'
+  device: 'auto'        # 'cpu', 'cuda', or 'auto'
+
+verification:
+  threshold: 0.45       # Similarity threshold (0.45 is balanced, 0.60 is high security)
+  input_size: [112, 112]
+
+api:
+  port: 8000
+  host: '0.0.0.0'
+
+logging:
+  level: 'INFO'

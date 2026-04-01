@@ -1,0 +1,29 @@
+[project]
+name = "test-adaface"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dvc>=3.67.1",
+    "fastapi>=0.135.3",
+    "fvcore>=0.1.5.post20221221",
+    "gdown>=5.2.1",
+    "iopath>=0.1.10",
+    "mediapipe>=0.10.33",
+    "numpy>=2.4.4",
+    "omegaconf>=2.3.0",
+    "opencv-python-headless>=4.13.0.92",
+    "pillow>=12.2.0",
+    "python-multipart>=0.0.22",
+    "pytorch-lightning>=2.6.1",
+    "pyyaml>=6.0.3",
+    "scikit-image>=0.26.0",
+    "scikit-learn>=1.8.0",
+    "torch>=2.11.0",
+    "torchvision>=0.26.0",
+    "tqdm>=4.67.3",
+    "transformers==4.47.0",
+    "ultralytics>=8.4.33",
+    "uvicorn>=0.42.0",
+]

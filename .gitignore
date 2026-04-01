@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Weights & Data (Gigabytes)
+model_weights/*.pt
+model_weights/*.onnx
+*.jpg
+*.png
+assets/
+
+# Logs & PIDs
+*.log
+api_pid.txt
+benchmark_prod_pid.txt
+
+# OS
+.DS_Store
